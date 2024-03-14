@@ -1,0 +1,54 @@
+body {
+    background-color: #1a1a1a; /* Mørk grå bakgrunn */
+    color: #f0f0f0; /* Lys tekst for kontrast */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #242424; /* Litt lysere grå for header */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-link {
+    color: #808080; /* Lysere grå for sosiale medier lenker */
+    margin-right: 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #ffffff; /* Endre til hvit ved hover */
+}
+
+footer {
+    background: #242424;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+}
